@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import th.ac.kmitl.atm.Model.Customer;
-import th.ac.kmitl.atm.Service.CustomerService;
+import th.ac.kmitl.atm.model.Customer;
+import th.ac.kmitl.atm.service.CustomerService;
 
 @Controller
 @RequestMapping("/login")
@@ -38,5 +38,5 @@ public class LoginController {
         }
         return "home";
     }
-
 }
+
